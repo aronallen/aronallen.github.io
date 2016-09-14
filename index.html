@@ -5,8 +5,16 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<title>Aron Nyborg Allen</title>
 	<style>
+	body{
+		padding:1em;
+		margin:0;
+	}
+	h2, p {
+		margin:0;
+		padding-bottom:1rem;
+	}
 	* {
-		font-family:monospace;
+		font-family:'Helvetica';
 	}
 	.role:before{
 		content: 'Role: ';
@@ -16,8 +24,28 @@
 		content: 'Technologies: ';
 		font-weight: bold;
 	}
+	p + h2, ul + h2 {
+		padding-top: 1rem;
+	}
+
 	p, li{
 		max-width:60em;
+	}
+	ul {
+		margin: 0;
+		padding-left: 1rem;
+	}
+	li {
+		font-size: 1.2rem;
+		line-height: 3rem;
+		font-weight:bold;
+		list-style:none;
+	}
+	li p {
+		padding: 0;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight:normal;
 	}
 	</style>
 </head>
