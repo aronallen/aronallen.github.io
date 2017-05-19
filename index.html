@@ -7,6 +7,7 @@
 	<title>Document</title>
 	<style>
 		body {
+			font-size: 3vmin;
 			margin: 0;
 			font-family: Helvetica, Arial, sans-serif;
 			background: black;
@@ -21,7 +22,7 @@
 		div {
 			width: 100vw;
 			height: 100vh;
-			max-height: 256px;
+			min-height: 128px;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-around;
@@ -33,6 +34,12 @@
 		}
 		h1, ul {
 			display: inline-block;
+		}
+		p {
+			align-self: flex-end;
+			width: 100%;
+			text-align: center;
+			line-height: 1.5em;
 		}
 		ul {
 			list-style: none;
@@ -84,5 +91,8 @@
 		</li>
 	</ul>
 	</div>
+	<p>
+		Nyborg Allen Consulting<br/>Strandlodsvej 25D ST TH 2300 Copenhagen<br/> +45 31 48 32 42<br/> <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37936340&soeg=nyborg+allen&type=Alle">DK37936340</a>
+	</p>
 </body>
 </html>
