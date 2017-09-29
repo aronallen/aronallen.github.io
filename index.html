@@ -7,7 +7,7 @@
 	<title>Document</title>
 	<style>
 		body {
-			font-size: 3vmin;
+			font-size: calc(1vmin + 8px);
 			margin: 0;
 			font-family: Helvetica, Arial, sans-serif;
 			background: black;
@@ -22,7 +22,7 @@
 		div {
 			width: 100vw;
 			height: 100vh;
-			min-height: 128px;
+			min-height: 200px;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-around;
@@ -31,7 +31,9 @@
 		h1 {
 			text-align: center;
 			margin : 10px;
+			line-height: 1.25em;
 		}
+		
 		h1, ul {
 			display: inline-block;
 		}
@@ -60,18 +62,22 @@
 </head>
 <body>
 	<div>
-	<h1>nyborgallen.consulting</h1>
+	<h1>Nyborg&thinsp;Allen<br/>Consulting</h1>
 	<ul>
-		<li>
-			
+		<li title="JavaScript">
 			JS
 		</li>
-		<li>
+		<li title="User Interface Design">
 			UI
-			
 		</li>
-		<li>
+		<li title="User Experience Design">
 			UX
+		</li>
+		<li title="Internationalization">
+			i18n
+		</li>
+		<li title="Localization">
+			l10n
 		</li>
 	</ul>
 	<ul>
@@ -92,7 +98,7 @@
 	</ul>
 	</div>
 	<p>
-		Nyborg Allen Consulting<br/>Strandlodsvej 25D ST TH 2300 Copenhagen<br/> +45 31 48 32 42<br/> <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37936340&soeg=nyborg+allen&type=Alle">DK37936340</a>
+		Nyborg Allen Consulting<br/>Strandlodsvej 25D st th<br/>Copenhagen<br/>+45 31 48 32 42<br/> <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37936340&soeg=nyborg+allen&type=Alle">DK37936340</a>
 	</p>
 </body>
 </html>
